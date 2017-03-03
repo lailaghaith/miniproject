@@ -1,0 +1,33 @@
+{
+  "name": "loginapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "latest",
+    "body-parser": "^1.16.1",
+    "connect-flash": "~0.1.1",
+    "cookie-parser": "~1.0.0",
+    "ejs": "^2.5.5",
+     "multer": "latest",
+    "express": "^4.14.1",
+    "express-paginate": "^0.2.2",
+    "method-override": "~1.0.0",
+    "mongoose": "^4.8.2",
+    "mongoose-pagination": "^1.0.0",
+    "morgan": "~1.0.0",
+    "express-session": "~1.0.0",
+    "passport": "~0.1.17",
+    "passport-local": "~0.1.6,",
+    "mongoose-file": "latest"
+
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
